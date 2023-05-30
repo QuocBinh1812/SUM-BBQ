@@ -7,7 +7,7 @@ if (pathName.indexOf("tintuc") != -1) {
 document.getElementById("header").innerHTML = `    <nav class="container-fluid">
 <img src="../images/logo-Sunhomes-BBQ-01.png" alt="logo">
 <ul id="p">
-    <li ><a href="../html/index.html">Trang chủ</a></li>
+    <li ><a href="../index.html">Trang chủ</a></li>
     <li ><a href="../html/gioithieu.html" >Giới thiệu</a></li>
     <li ><a href="../html/datban.html">Đặt bàn</a></li>
     <li ><a href="../html/thucdon.html">Thực đơn</a></li>
