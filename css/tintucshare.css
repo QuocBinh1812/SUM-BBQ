@@ -1,0 +1,593 @@
+body {
+    color: #777 !important;
+    font-family: sans-serif !important;
+}
+
+.news {
+    padding-top: 100px;
+    margin-bottom: 70px;
+}
+
+.border {
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 1em 0 1em;
+    max-width: 30px;
+}
+
+.header-img {
+    height: 470px;
+}
+
+.header-img img {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+
+.header-text {
+    padding-top: 20px;
+}
+
+.header-text h6 {
+    font-size: .7em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    opacity: .8;
+}
+
+.header-text h6 a {
+    color: #334862;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-text h1 {
+    font-weight: 700;
+    font-size: 1.7em;
+    line-height: 1.3;
+    color: #555;
+}
+
+.header-text span {
+    font-size: .7em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.content{
+    margin-top: 30px;
+}
+
+figure {
+    position: relative;
+    height: 410px;
+}
+
+figure .voucher {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 0.4em;
+    font-size: .9em;
+    background: rgba(0, 0, 0, 0.05);
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+}
+
+figure.images{
+    height: 370px;
+    position: relative;
+}
+
+figure .concept-1{
+    cursor: pointer;
+    height: 370px;
+    margin-bottom: 2em;
+}
+
+.fig-text{
+    position: absolute;
+    bottom: 0;
+    font-style: italic;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white !important;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content2 li{
+    margin-left: 1.3em;
+}
+
+.blog-share{
+    height: 100px;
+    position: relative;
+}
+
+.social-icon{
+    text-align: center;
+    font-size: .85em;
+    color: #999;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-icon .social-icon-small{
+    border: 2px solid #999;
+    border-radius: 50%;
+    width: 50px;
+    float: left;
+    margin: 2px;
+}
+
+.social-icon a{
+    color: #999;
+    margin-right: 0.12em;
+    line-height: 2.19em;
+    letter-spacing: .03em;
+    cursor: pointer;
+}
+
+.social-icon a i{
+    font-size: 20px;
+    min-width: 1em;
+    line-height: 2.2;
+    width: 50px;
+    padding-right: 2px;
+}
+
+.social-icon-small{
+    background-color: white;
+}
+
+.social-icon-small a:hover{
+    color: white;
+}
+
+.social-icon-small:hover{
+    background-color: green;
+}
+
+.social-icon-small:nth-child(2):hover{
+    background-color: blue;
+}
+
+.social-icon-small:nth-child(3):hover{
+    background-color: rgb(98, 98, 255);
+}
+
+.social-icon-small:nth-child(4):hover{
+    background-color: rgb(255, 85, 85);
+}
+
+.social-icon-small:nth-child(5):hover{
+    background-color: red;
+}
+
+.social-icon-small:nth-child(6):hover{
+    background-color: rgb(82, 82, 185);
+}
+
+.footer-content{
+    font-size: .8em;
+    border-top: 1px solid #ececec;
+    border-bottom: 2px solid #ececec;
+    padding: 0.5em 0 0.6em;
+}
+
+.footer-content a{
+    color: #334862;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer-content a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation-post{
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+}
+
+.navigation-post .navi-prev{
+    padding: 0.7em 0;
+}
+
+.navigation-post .navi-prev a{
+    color: #334862;
+    text-decoration: none;
+}
+
+.navigation-post .navi-prev .navi-text span i{
+    margin: 0 10px !important;
+    top: -1px;
+    vertical-align: middle;
+}
+
+.navigation-post .navi-next{
+    padding: 0.7em 0;
+    border-left: 1px solid #ececec;
+    text-align: right;
+}
+
+.navigation-post .navi-next a{
+    color: #334862;
+    text-decoration: none;
+}
+
+.navigation-post .navi-next .navi-text span i{
+    margin: 0 10px !important;
+    top: -1px;
+    vertical-align: middle;
+}
+
+.comment-title{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #555;
+}
+
+.comment-list{
+    margin-top: 40px;
+    margin-bottom: 1.3em;
+}
+
+.comment-inner{
+    padding: 1em 0 0 0;
+    margin-bottom: 0.6em;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.comment-img{
+    margin-right: 15px;
+    padding-left: 25px;
+}
+
+.comment-inner cite{
+    color: #334862;
+    font-weight: bolder;
+}
+
+.comment-content a{
+    color: #334862;
+}
+
+.comment-content a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.comment-text{
+    font-size: .7em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    height: 18px;
+    position: relative;
+}
+
+.comment-text .reply{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 600;
+}
+
+.comment-text .reply a{
+    color: #334862;
+}
+
+.comment-text .reply a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.comment-text .reply a:focus{
+    outline: none;
+}
+
+.comment-respon{
+    background-color: rgba(0,0,0,0.05);
+    margin-top: 15px;
+    padding: 15px 25px 0;
+    height: 534px;
+}
+
+.comment-respon h3{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #555;
+}
+
+.comment-respon h3 small{
+    color: #334862;
+    text-transform: uppercase;
+    font-size: .6em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.comment-respon h3 small:hover{
+    color: #000;
+}
+
+form p{
+    margin-bottom: 0.5em;
+}
+
+form label{
+    color: #222;
+    font-weight: bold;
+    display: block;
+    font-size: .9em;
+    margin-bottom: 0.4em;
+}
+
+form textarea{
+    margin-bottom: 1em;
+    min-height: 120px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 0 0.75em;
+    height: 2.507em;
+    font-size: .97em;
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #333;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+}
+
+form .row{
+    margin-bottom: 0.5em;
+}
+
+form input[type='text'],
+form input[type='email'],
+form input[type='url']{
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 0 0.75em;
+    height: 2.507em;
+    font-size: .97em;
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #333;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+    margin-bottom: 1em;
+}
+
+form input[type='text']:focus,
+form input[type='email']:focus,
+form input[type='url']:focus,
+form textarea:focus{
+    box-shadow: 0 0 5px #ccc;
+    outline: 0;
+    background-color: #fff;
+}
+
+form input[type='checkbox']{
+    display: inline;
+    margin-right: 10px;
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+
+form input[type='checkbox']+label{
+    display: inline;
+    font-size: .8em;
+}
+
+form input[type='button']{
+    color: black;
+    border-radius: 5px;
+    background-color: #F3E385;
+    border-color: rgba(0,0,0,0.05);
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .97em;
+    letter-spacing: .03em;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-right: 1em;
+    line-height: 2.4em;
+    min-height: 2.5em;
+    padding: 0 1.2em;
+    max-width: 100%;
+}
+
+.border-left {
+    border-left: 1px solid #ececec;
+    
+}
+
+.news-search input {
+    border: 1px solid #ddd;
+    padding: 0 0.75em;
+    height: 2.507em;
+    width: 70%;
+    color: #333;
+    box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+    outline: none;
+    float: left;
+}
+
+.news-search button {
+    background-color: #000000;
+    cursor: pointer;
+    min-height: 2.5em;
+    padding: 0 1.2em;
+    border: 1px solid transparent;
+}
+
+.news-search button i {
+    color: white;
+    font-size: 1.2em;
+}
+
+.news-link .news-title {
+    width: 140px;
+    margin-top: 40px;
+}
+
+.news-link .news-title span {
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.05;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #777;
+    font-family: sans-serif;
+}
+
+.news-link ul {
+    list-style: none;
+}
+
+.news-link .news-posts ul li {
+    border-bottom: 1px solid #ececec;
+    ;
+}
+
+.news-link ul li a {
+    font-size: 15px;
+    display: inline-block;
+    padding: 6px 0;
+    color: #334862;
+    text-decoration: none;
+}
+
+.news-link .categories .news-title {
+    width: 143px;
+}
+
+.news-link .categories ul li a {
+    color: #000000;
+    font-weight: bolder;
+}
+
+/* mobie: width: < 740px */
+@media only screen and (max-width: 46.1875em) {
+
+}
+
+/* tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .news{
+        padding-top: 130px;
+    }
+
+    .header-img img{
+        object-fit: contain;
+    }
+
+    .header-img img.img2{
+        object-fit: cover;
+    }
+
+    .news-search input{
+        width: 73%;
+    }
+
+    .news-search button{
+        padding: 0 15px;
+    }
+
+    .comment-respon{
+        height: 585px;
+    }
+}

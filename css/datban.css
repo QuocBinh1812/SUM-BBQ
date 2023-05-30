@@ -1,0 +1,225 @@
+.settable{
+    position: relative;
+    height: 810px;
+}
+
+.settable-small{
+    position: absolute;
+    top: 0;
+    color: #777;
+    font-family: sans-serif;
+    margin-top: 20px;
+    width: 83.5%;
+}
+
+.settable-content{
+    font-size: 19px;
+}
+
+.settable-content h1,
+.settable-content p:nth-child(3){
+    color: black;
+}
+
+.settable-content ul li{
+    list-style: none;
+}
+
+.settable-content ul li i{
+    font-size: 10px;
+    margin-right: 20px;
+    opacity: 0.5;
+}
+
+.settable-content ul hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid black;
+    opacity: 0.7;
+}
+
+.settable-info{
+    height: 695px;
+    position: relative;
+}
+
+.settable-info input{
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.reservation-time .time{
+    float: left;
+    width: 109px;
+    height: 40px;
+}
+
+.reservation-time .time span{
+    color: #333;
+}
+
+.reservation-time .time input[type=checkbox]{
+    box-sizing: border-box;
+    padding: 0;
+    width: 25px;
+}
+
+.settable-info .submit-btn{
+    width: 130px;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #F3E385;
+    border: none;
+}
+
+.settable-info .submit-btn:hover{
+    background-color: rgb(190 207 124);
+    transition: 1s;
+}
+
+.errsettable,
+.errsettablehours,
+.warningsettable{
+    display: none;
+}
+
+.errsettable{
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 12px;
+    width: 50%;
+    padding: 5px 8px;
+    line-height: 1.2em;
+    border-radius: 3px;
+    opacity: .8;
+    background-color: #f1f1f1;
+    color: #b20000;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+}
+
+.errsettable::after{
+    bottom: 99%;
+    left: 30px;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    border-bottom-color: #f1f1f1;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.errtime{
+    position: absolute;
+    margin-top: 234px;
+    left: 10px;
+    width: 50%;
+    padding: 5px 8px;
+    line-height: 1.2em;
+    border-radius: 3px;
+    opacity: .8;
+    background-color: #f1f1f1;
+    color: #b20000;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+}
+
+.errtime::after{
+    bottom: 99%;
+    left: 30px;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    border-bottom-color: #f1f1f1;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.errsettablehours{
+    position: absolute;
+    margin-top: 234px;
+    left: 10px;
+    width: 50%;
+    padding: 5px 8px;
+    line-height: 1.2em;
+    border-radius: 3px;
+    opacity: .8;
+    background-color: #f1f1f1;
+    color: #b20000;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+}
+
+.errsettablehours::after{
+    bottom: 99%;
+    left: 30px;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    border-bottom-color: #f1f1f1;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.warningsettable{
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 2px solid #ffb900;
+    border-radius: 10px;
+    text-align: left;
+    width: 465px;
+    height: 70px;
+    bottom: -100px;
+    position: absolute;
+    left: 35px;
+}
+
+/* mobie: width: < 740px */
+@media only screen and (max-width: 46.1875em) {
+
+}
+
+/* tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .errsettable{
+        width: 55%;
+        margin-top: -4px;
+    }
+
+    .settable-info input{
+        margin: 6px;
+    }
+
+    .reservation-time{
+        margin-top: -5px;
+    }
+
+    .reservation-time .time{
+        width: 103px;
+        height: 30px;
+    }
+    
+    .errsettablehours{
+        margin-top: 207px;
+        width: 55%;
+    }
+
+    .settable-info .submit-btn{
+        bottom: 13px;
+    }
+
+    .warningsettable{
+        left: 10px;
+        font-size: 18px;
+        width: 380px;
+        bottom: -85px;
+    }
+}
