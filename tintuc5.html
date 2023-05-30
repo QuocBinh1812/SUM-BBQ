@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/css.css" />
-    <link rel="stylesheet" href="../css/tintucshare.css" />
+    <link rel="stylesheet" href="./css/css.css" />
+    <link rel="stylesheet" href="./css/tintucshare.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -24,7 +24,7 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
-    <title>“ĂN NGON - QUÀ GIÒN” với voucher tặng món tại Sun Homes BBQ</title>
+    <title>Sun Homes BBQ chào tất cả mọi người!</title>
   </head>
 
   <body>
@@ -40,16 +40,17 @@
               <header>
                 <div class="header-img">
                   <a href="./tintuc1.html">
-                    <img src="../images/news/voucher-tng-mon.jpg" alt="" />
+                    <img
+                      src="./images/news/khaitruong-king-bbq-tan-son-nhi3.jpg"
+                      alt=""
+                    />
                   </a>
                 </div>
                 <div class="header-text">
                   <h6>
                     <a href="./tintuc.html">Tin tức</a>
                   </h6>
-                  <h1>
-                    “ĂN NGON - QUÀ GIÒN” với voucher tặng món tại Sun Homes BBQ
-                  </h1>
+                  <h1>Sun Homes BBQ chào tất cả mọi người!</h1>
                   <div class="border"></div>
                   <span>POSTED ON 06/02/2018 BY ADMIN</span>
                 </div>
@@ -70,9 +71,9 @@
                 </p>
                 <figure>
                   <img
-                    id="myImg1"
+                    id="myImg"
                     class="voucher"
-                    src="../images/news/voucher-tng-mon.jpg"
+                    src="./images/news/voucher-tng-mon.jpg"
                     alt=""
                   />
                   <figcaption class="figcaption">
@@ -80,15 +81,15 @@
                     Alacarte
                   </figcaption>
                 </figure>
-                <div id="myModal1" class="modal">
+                <div id="myModal" class="modal">
                   <!-- The Close Button -->
                   <span class="close">&times;</span>
 
                   <!-- Modal Content (The Image) -->
-                  <img class="modal-content" id="img01-1" />
+                  <img class="modal-content" id="img01" />
 
                   <!-- Modal Caption (Image Text) -->
-                  <div id="caption1"></div>
+                  <div id="caption"></div>
                 </div>
                 <p>
                   <strong>Điều kiện áp dụng Voucher:</strong>
@@ -186,25 +187,71 @@
                 <div class="row">
                   <div class="col-6">
                     <div class="navi-prev">
-                      <div class="navi-text">
-                        <a href="./tintuc2.html">
-                          <span><i class="fa-solid fa-angle-left"></i></span>
-                          Khai trương Sun Homes BBQ với nhiều ưu đãi hấp dẫn
-                        </a>
-                      </div>
+                      <div class="navi-text"></div>
                     </div>
                   </div>
                   <div class="col-6">
                     <div class="navi-next">
-                      <div class="navi-text"></div>
+                      <div class="navi-text">
+                        <a href="./tintuc4.html">
+                          Bạn đã sẵn sàng nhập tiệc cùng Sun Homes BBQ dịp cuối
+                          năm chưa?
+                          <span><i class="fa-solid fa-angle-right"></i></span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </article>
             <div class="comment">
-              <div class="comment-respon">
-                <h3>Trả lời</h3>
+              <h3 class="comment-title">
+                ONE THOUGHT ON “SUN HOMES BBQ CHÀO TẤT CẢ MỌI NGƯỜI!”
+              </h3>
+              <div class="comment-list">
+                <div class="comment-inner">
+                  <div class="row">
+                    <div class="col-2">
+                      <div class="comment-img">
+                        <img
+                          src="./images/news/d7a973c7dab26985da5f961be7b74480.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-10">
+                      <cite> Một người bình luận WordPress </cite>
+                      <span> says:</span>
+                      <div class="comment-content">
+                        <p>
+                          Xin chào, đây là một bình luận
+                          <br />
+                          Để bắt đầu với quản trị bình luận, chỉnh sửa hoặc xóa
+                          bình luận, vui lòng truy cập vào khu vực Bình luận
+                          trong trang quản trị.
+                          <br />
+                          Avatar của người bình luận sử dụng
+                          <a href="https://vi.gravatar.com/">Gravatar.</a>
+                        </p>
+                      </div>
+                      <div class="comment-text">
+                        <span>06/02/2018 AT 03:59</span>
+                        <div class="reply">
+                          <a href="#comment-respon" onclick="reply()"
+                            >Trả lời</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="comment-respon" class="comment-respon">
+                <h3 id="reply-text">Trả lời</h3>
+                <h3 id="reply-text-two" style="display: none">
+                  Phản hồi đến Một người bình luận WordPress
+                  <small onclick="block()">hủy</small>
+                </h3>
                 <form action="" class="comment-form">
                   <p class="comment-notes">
                     Email của bạn sẽ không được hiển thị công khai. Các trường
@@ -341,7 +388,7 @@
                   <div class="border"></div>
                   <ul>
                     <li>
-                      <a href="./html/tintuc.html">Tin tức</a>
+                      <a href=".//tintuc.html">Tin tức</a>
                     </li>
                   </ul>
                 </div>
@@ -378,7 +425,7 @@
     type="text/javascript"
     src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
   ></script>
-  <script src="../js/tintuc1.js"></script>
-  <script src="../js/share.js"></script>
-  <script src="../js/applayout.js"></script>
+  <script src="./js/tintuc5.js"></script>
+  <script src="./js/share.js"></script>
+  <script src="./js/applayout.js"></script>
 </html>

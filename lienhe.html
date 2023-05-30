@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/css.css" />
+    <link rel="stylesheet" href="./css/lienhe.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <title>Liên hệ</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <div id="header"></div>
+
+    <!-- banner -->
+    <div id="banner"></div>
+
+    <!-- contact -->
+    <div class="container">
+      <div class="contact" id="contact">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6">
+            <div class="contact-left">
+              <h3>Contact</h3>
+              <p>
+                Chúng tôi luôn trân trọng mọi ý kiến của quý khách, ý kiến từ
+                quý khách sẽ giúp chúng tôi nâng cao về chất lượng phục vụ chính
+                quý khách cũng góp phần vào sự thành công và phát triển thương
+                hiệu Sun Homes BBQ của chúng tôi: <br /><br />
+                Webdesign rất hoan nghênh độc giả gửi thông tin và góp ý cho
+                chúng tôi!
+              </p>
+              <p>
+                <b>Địa chỉ:</b> Số 29 ngõ 18 Lương Ngọc Quyến, Hà Đông, Hà Nội.
+              </p>
+              <p><b>Email:</b> webdesign@gmail.com</p>
+              <p><b>SĐT:</b> 098.097.8895</p>
+              <p><b>Website:</b> www.webdesign.com</p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="contact-right">
+              <input
+                type="text"
+                name="name"
+                id="contactName"
+                placeholder="Tên của bạn..."
+              />
+              <span
+                class="notification"
+                style="display: none"
+                id="notificontactName"
+                >"Mục này là bắt buộc"</span
+              >
+              <br id="br1" />
+              <input
+                type="email"
+                name="email"
+                id="contactEmail"
+                placeholder="Địa chỉ email.."
+              />
+              <span
+                class="notification"
+                style="display: none"
+                id="notificontactEmail"
+                >"Mục này là bắt buộc"</span
+              >
+              <br id="br2" />
+              <input
+                type="tel"
+                name="tel"
+                id="contactTel"
+                placeholder="Số điện thoại..."
+              />
+              <span
+                class="notification"
+                style="display: none"
+                id="notificontacttel"
+                >"Mục này là bắt buộc"</span
+              >
+              <br id="br3" />
+              <input
+                type="text"
+                name="purpose"
+                id="contactPurpose"
+                placeholder="Mục đích liên hệ..."
+              />
+              <span
+                class="notification"
+                style="display: none"
+                id="notificontactpurpose"
+                >"Mục này là bắt buộc"</span
+              >
+              <br id="br4" />
+              <textarea
+                name="textarea"
+                id="contactContent"
+                cols="50"
+                rows="5"
+                placeholder="Nội dung chi tiết..."
+              ></textarea>
+              <span
+                class="notification"
+                style="display: none"
+                id="notificontactcontent"
+                >"Mục này là bắt buộc"</span
+              >
+              <br id="br5" />
+              <button onclick="buttonerr()">Gửi Liên Hệ</button>
+              <br /><span
+                class="notificationlast"
+                style="display: none"
+                id="notifilast"
+                >Có một hoặc nhiều mục nhập có lỗi. Vui lòng kiểm tra và thử
+                lại.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer"></div>
+
+    <!-- back to top -->
+    <div id="ontop"></div>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="./js/share.js"></script>
+  <script src="./js/applayout.js"></script>
+</html>

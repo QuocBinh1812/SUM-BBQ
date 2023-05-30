@@ -5,17 +5,17 @@ if (pathName.indexOf("tintuc") != -1) {
 }
 
 document.getElementById("header").innerHTML = `    <nav class="container-fluid">
-<img src="../images/logo-Sunhomes-BBQ-01.png" alt="logo">
+<img src="./images/logo-Sunhomes-BBQ-01.png" alt="logo">
 <ul id="p">
-    <li ><a href="../SUM-BBQ/index.html">Trang chủ</a></li>
-    <li ><a href="../SUM-BBQ/html/gioithieu.html" >Giới thiệu</a></li>
-    <li ><a href="../SUM-BBQ/html/datban.html">Đặt bàn</a></li>
-    <li ><a href="../SUM-BBQ/html/thucdon.html">Thực đơn</a></li>
-    <li ><a href="../SUM-BBQ/html/tuyendung.html">Tuyển dụng</a></li>
+    <li ><a href="./index.html">Trang chủ</a></li>
+    <li ><a href=".//gioithieu.html" >Giới thiệu</a></li>
+    <li ><a href=".//datban.html">Đặt bàn</a></li>
+    <li ><a href=".//thucdon.html">Thực đơn</a></li>
+    <li ><a href=".//tuyendung.html">Tuyển dụng</a></li>
     <li ><a class="${
       isTintuc ? "active" : ""
-    }" href="../html/tintuc.html">Tin tức</a></li>
-    <li ><a href="../html/lienhe.html">Liên hệ</a></li>
+    }" href=".//tintuc.html">Tin tức</a></li>
+    <li ><a href=".//lienhe.html">Liên hệ</a></li>
     <li class="hotline">
         <a href="#">
             <span>Hotline: 0123456789</span>
@@ -50,7 +50,7 @@ document.getElementById("footer").innerHTML = `<div class="footer">
     <div class="footer-right">
         © 2023 Golden Gate ., JSC. All rights reserved
         <br>
-        <img src="../images/footer-bct.png" alt="">
+        <img src="./images/footer-bct.png" alt="">
     </div>
 </div>
 </div>`;
@@ -67,5 +67,5 @@ document.getElementById(
 ).innerHTML = `<div class="banner" style="display:${
   isbanner ? "block" : "none"
 }" >
-<img src="../images/about/banner-234.jpg" alt="">
+<img src="./images/about/banner-234.jpg" alt="">
 </div>`;
